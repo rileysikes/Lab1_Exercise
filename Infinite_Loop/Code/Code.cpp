@@ -8,9 +8,9 @@ int main()
 {
 	int choice = 0;
 
-	string name = "";
-	string age = "";
-	string occup = "";
+	string name = "Riley";
+	string age = "nineteen";
+	string occup = "fast food worker";
 
 	while (choice != -1)
 	{
