@@ -22,10 +22,10 @@ int main()
 		cout << "2: Enter Age\n";
 		cout << "3: Enter Occupation\n";
 		cin >> choice;
-
-		/*if (choice == -1)
-			break;*/
-
+/*The line under this was orriginaly in a comment but I took it out and then made it an if else statement to run the program */
+		if (choice == -1)
+			break;
+		else;
 		switch (choice)
 		{
 		case 1:
