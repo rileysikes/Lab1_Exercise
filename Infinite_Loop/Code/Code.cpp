@@ -12,17 +12,20 @@ int main()
 	string age = "";
 	string occup = "";
 
-	while (choice != -1)
+	/*while (choice != -1)
+	This is where the code is wrong and the correct way is beneath*/
+	while(true)		
+	/* This is how the while statement should be initialized so that the program does not infinitly loop*/
 	{
 		cout << "-1: Exit\n";
 		cout << "1: Enter Name\n";
 		cout << "2: Enter Age\n";
 		cout << "3: Enter Occupation\n";
 		cin >> choice;
-
-		/*if (choice == -1)
-			break;*/
-
+/*The line under this was originaly in a comment but I took it out and then made it an if-else statement to run the program */
+		if (choice == -1)
+			break;
+		else;
 		switch (choice)
 		{
 		case 1:
